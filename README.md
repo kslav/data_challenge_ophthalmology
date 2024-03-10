@@ -43,4 +43,4 @@ To reproduce the analysis, please follow these steps:
 7. In the second code cell of *retinal_vasculature_segmentation.ipynb*, headed by `# SETTING THE HOMEDIR`, change your homedir to *[homedir]/Aim2/*.
    * Run the notebook (the dice scores and image equality metrics are saved as CSV files in the **Results** folder.).
    * Make sure to shut down Jupyter Notebook when finished and to deactivate your virtual environment. 
-9. To inspect the relationship between dice scores and image quality metric, run the R script, *stat_analysis_ophthalmicimages.R*, with your IDE of choice (like RStudio).
+9. To inspect the relationship between dice scores and image quality metric, run the R script, *stat_analysis_ophthalmicimages.R*, with your IDE of choice (like RStudio). Make sure to update `homedir` and `datadir` on lines 9 and 10 with the correct directories on your machine.
