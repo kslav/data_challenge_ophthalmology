@@ -11,7 +11,7 @@ This was a data challenge -- to be completed within 40 hours -- composed of two 
 
 All files and data associated with each aim are stored under the folders **Aim1** and **Aim2**, respectively. A summary of all analyses and key findings addressing the questions for both aims is presented in *Slavkova_Report_DataChallenge.pdf* in the main branch.
 
-## Getting started with Aim1
+## Getting started with Aim 1
 Within the Aim1 folder, you will find the following subfolders:
 * <ins>Data</ins>: Contains four CSV files of simualted patient information, including clinical variables, demographic information, patient history, and clinician notes.
 * <ins>Code</ins>: Contains one R script, *stat_analysis_smokers.R*, which runs all analyses on the data under **Data**.
@@ -24,7 +24,7 @@ To reproduce the analysis, please follow these steps:
 2. Open *stat_analysis_smokers.R* in RStudio (or other IDE of choice) and set `homedir <- [path of repo on your machine]/Aim1/Data/`
 3. Run the entire script with `CMD + Shift + Enter/Return`. Plots in RStudio will be visualized in the lower right corner
 
-## Getting started with Aim2
+## Getting started with Aim 2
 Within the Aim2 folder, you will find the following subfolders:
 * <ins>Data</ins>: Contains the raw RGB ophthalmic images under **Raw images**, the ground truth segmentations from Grader 1 under **Grader1**
 , the ground truth segmentations from Grader 2 under **Grader2**, and a CSV of information corresponding to each raw image as *Image info.csv*
