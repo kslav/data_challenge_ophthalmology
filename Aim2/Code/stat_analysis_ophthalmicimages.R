@@ -6,9 +6,10 @@ library(dplyr)
 
 ############ LOAD THE FOUR SPREADSHEETS WE ARE GIVEN ############
 set.seed(0)
-homedir <- "/Users/kalina/Downloads/VeranaHealth/DataChallengeImages/"
+homedir <- "~/Aim2/Results/"
+datadir <- "~/Aim2/Data/"
 dice_df <- read.csv(paste(homedir,"dice_1708153027.725909.csv", sep = ""))
-iminfo_df <- read.csv(paste(homedir,"Images info.csv", sep = ""))
+iminfo_df <- read.csv(paste(datadir,"Images info.csv", sep = ""))
 metrics_df <- read.csv(paste(homedir,"qualmetrics_1708154411.410247.csv", sep = ""))
 
 # rename the first column across all data frames to be the same as iminfo_df.
