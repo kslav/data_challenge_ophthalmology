@@ -1,11 +1,28 @@
 ## OVERVIEW: 
 This was a data challenge -- to be completed within 40 hours -- composed of two aims based on the analysis of simulated patient data. These two aims are as follows: 
 * <ins>Aim 1</ins>: Assess the relationship between the number of cigarettes smoked per day and the prevalence of diabetes in a set of over 4,000 patients.
+  * Q1: Spend some time exploring the tables data and show or discuss what you find. What are the types of data quality issues will have to consider?
+  * Q2: Is there a relationship between the number of cigarettes smoked per day and the prevalence of diabetes? Run a statistical test to determine significance, interpret the results and create a visualization to display this. 
 * <ins>Aim 2</ins>: Design a segmentation algorithm for segmenting retinal vasculature from ophthalmic images, using two sets of ground truth segmentations for evaluating segmentation quality.
+  * Q1: Explain your rationale in designing the algorithm, choosing the evaluation metrics and discuss how your algorithm outputs compared to the two graders’.
+  * Q2: Does your algorithm perform differently between images from normal eyes and diseased eyes?
+  * Q3: Assess the image quality of this dataset, does image quality influence your algorithm performance?
+  * Q4: This small set of images were provided to you to assess the feasibility of building a deep learning model to perform the same task with additional images, based on the analysis you performed above, is it feasible? What additional images and or additional workflows need to be implemented?
 
-All files and data associated with each aim are stored under the folders **Aim1** and **Aim2**, respectively. A summary of all analyses and key findings for both aims is presented in *Slavkova_Report_DataChallenge.pdf* in the main branch.
+All files and data associated with each aim are stored under the folders **Aim1** and **Aim2**, respectively. A summary of all analyses and key findings addressing the questions for both aims is presented in *Slavkova_Report_DataChallenge.pdf* in the main branch.
 
 ## Getting started with Aim1
+Within the Aim1 folder, you will find the following subfolders:
+* <ins>Data</ins>: Contains four CSV files of simualted patient information, including clinical variables, demographic information, patient history, and clinician notes.
+* <ins>Code</ins>: Contains one R script, *stat_analysis_smokers.R*, which runs all analyses on the data under **Data**.
+
+To reproduce the analysis, please follow these steps:
+1. Ensure that your system satisfies the following R requirements:
+   * R version 3.6.2 or greater
+   * R packages: gplots, ggplot2, tidyverse, data.table
+   * RStudio Version 2022.12.0+353 or greater (ideal for visualizing results)
+2. Open *stat_analysis_smokers.R* in RStudio (or other IDE of choice) and set `homedir <- [path of repo on your machine]/Aim1/Data/`
+3. Run the entire script with `CMD + Shift + Enter/Return`. Plots in RStudio will be visualized in the lower right corner
 
 ## Getting started with Aim2
 Within the Aim2 folder, you will find the following subfolders:
