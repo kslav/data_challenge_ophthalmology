@@ -9,7 +9,7 @@ This was a data challenge -- to be completed within 40 hours -- composed of two 
   * Q3: Assess the image quality of this dataset, does image quality influence your algorithm performance?
   * Q4: This small set of images were provided to you to assess the feasibility of building a deep learning model to perform the same task with additional images, based on the analysis you performed above, is it feasible? What additional images and or additional workflows need to be implemented?
 
-All files and data associated with each aim are stored under the folders **Aim1** and **Aim2**, respectively. A summary of all analyses and key findings addressing the questions for both aims is presented in *Slavkova_Report_DataChallenge.pdf* in the main branch.
+All files and data associated with each aim are stored under the folders **Aim1** and **Aim2**, respectively. A summary of all analyses and key findings addressing the questions for both aims is presented in *Slavkova_Summary_DataChallenge.pdf* in the main branch.
 
 ## Getting started with Aim 1
 Within the Aim1 folder, you will find the following subfolders:
