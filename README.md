@@ -24,6 +24,9 @@ To reproduce the analysis, please follow these steps:
 2. Open *stat_analysis_smokers.R* in RStudio (or other IDE of choice) and set `homedir <- [path of repo on your machine]/Aim1/Data/`
 3. Run the entire script with `CMD + Shift + Enter/Return`. Plots in RStudio will be visualized in the lower right corner
 
+Main results:
+<img src="assets/Figure1.png" width="800">
+
 ## Getting started with Aim 2
 Within the Aim2 folder, you will find the following subfolders:
 * <ins>Data</ins>: Contains the raw RGB ophthalmic images under **Raw images**, the ground truth segmentations from Grader 1 under **Grader1**
@@ -44,3 +47,6 @@ To reproduce the analysis, please follow these steps:
    * Run the notebook (the dice scores and image equality metrics are saved as CSV files in the **Results** folder.).
    * Make sure to shut down Jupyter Notebook when finished and to deactivate your virtual environment. 
 9. To inspect the relationship between dice scores and image quality metric, run the R script, *stat_analysis_ophthalmicimages.R*, with your IDE of choice (like RStudio). Make sure to update `homedir` and `datadir` on lines 9 and 10 with the correct directories on your machine.
+
+Main results:
+<img src="assets/Figure2.png" width="800">
